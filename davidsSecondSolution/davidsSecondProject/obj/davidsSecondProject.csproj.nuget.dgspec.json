@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/david.richards/Projects/davidsSecondSolution/davidsSecondProject/davidsSecondProject.csproj": {}
+    "/Users/david.richards/Documents/GitHub/Testingstuff/davidsSecondSolution/davidsSecondProject/davidsSecondProject.csproj": {}
   },
   "projects": {
-    "/Users/david.richards/Projects/davidsSecondSolution/davidsSecondProject/davidsSecondProject.csproj": {
+    "/Users/david.richards/Documents/GitHub/Testingstuff/davidsSecondSolution/davidsSecondProject/davidsSecondProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/david.richards/Projects/davidsSecondSolution/davidsSecondProject/davidsSecondProject.csproj",
+        "projectUniqueName": "/Users/david.richards/Documents/GitHub/Testingstuff/davidsSecondSolution/davidsSecondProject/davidsSecondProject.csproj",
         "projectName": "davidsSecondProject",
-        "projectPath": "/Users/david.richards/Projects/davidsSecondSolution/davidsSecondProject/davidsSecondProject.csproj",
+        "projectPath": "/Users/david.richards/Documents/GitHub/Testingstuff/davidsSecondSolution/davidsSecondProject/davidsSecondProject.csproj",
         "packagesPath": "/Users/david.richards/.nuget/packages/",
-        "outputPath": "/Users/david.richards/Projects/davidsSecondSolution/davidsSecondProject/obj/",
+        "outputPath": "/Users/david.richards/Documents/GitHub/Testingstuff/davidsSecondSolution/davidsSecondProject/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/david.richards/.config/NuGet/NuGet.Config"
@@ -35,6 +35,30 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.16.1, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[80.0.3987.10600, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

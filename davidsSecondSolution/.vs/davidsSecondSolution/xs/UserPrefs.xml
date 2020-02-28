@@ -1,15 +1,32 @@
 ﻿<Properties StartupConfiguration="{CF13E8B9-C362-48E7-BF15-1049FA493F32}|Default">
-  <MonoDevelop.Ide.ItemProperties.davidsSecondProject FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="davidsSecondProject/Program.cs">
+  <MonoDevelop.Ide.ItemProperties.davidsSecondProject PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="davidsSecondProject/AnotherOne.cs">
     <Files>
-      <File FileName="davidsSecondProject/Program.cs" Line="1" Column="1" />
+      <File FileName="davidsSecondProject/Program.cs" Line="7" Column="21" />
+      <File FileName="davidsSecondProject/Easier Test.cs" Line="13" Column="6" />
+      <File FileName="davidsSecondProject/SomeNewTest.cs" Line="3" Column="2" />
+      <File FileName="davidsSecondProject/AnotherOne.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="davidsSecondSolution" expanded="True">
             <Node name="davidsSecondProject" expanded="True">
-              <Node name="Program.cs" selected="True" />
+              <Node name="Dependencies" expanded="True" />
+              <Node name="AnotherOne.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="davidsSecondSolution" expanded="True">
+            <Node name="davidsSecondProject" expanded="True">
+              <Node name="davidsSecondProject" expanded="True">
+                <Node name="EasierTests" expanded="True">
+                  <Node name="Test1" selected="True" />
+                </Node>
+              </Node>
             </Node>
           </Node>
         </State>
