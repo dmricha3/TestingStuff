@@ -34,9 +34,20 @@ namespace davidsSecondProject
          */
 #pragma warning disable RECS0022 // A catch clause that catches System.Exception and has an empty body
 
-
+        /// <summary>
+        /// This is for adding a wait for finding elemens via a By element selector before
+        /// the driver runs it's commands
+        /// </summary>
+        /// <param name="elementLocator"></param>
+        /// <param name="timeout"></param>
         public void WaitUntilElementPresent(By elementLocator, int timeout = 10)
-        {   
+        {
+            //Declaring the variable implicitTimeOut and setting it equal to
+            //the current driver impicit wait.
+            var implicitTimeOut = driver.Manage().Timeouts().ImplicitWait;
+            //This setting the implicit wait equal to 1 second
+            driver.Manage().Timeouts().ImplicitWait = System.TimeSpan.FromSeconds(1);
+            //declaring the variable remainingTime and setting it equal to the passed in parameter
             var remainingTime = timeout;
             System.Diagnostics.Stopwatch sp = new Stopwatch();
             sp.Restart();
@@ -45,8 +56,9 @@ namespace davidsSecondProject
             {
                 try
                 {
-                    System.Diagnostics.Debug.WriteLine("We hit the try!");
+                    System.Diagnostics.Debug.WriteLine($"We hit the try! Remaining Time: {remainingTime}");
                     driver.FindElement(elementLocator);
+                    driver.Manage().Timeouts().ImplicitWait = implicitTimeOut;
                     return;
                 }
                 catch
@@ -54,8 +66,8 @@ namespace davidsSecondProject
                     System.Diagnostics.Debug.WriteLine("We hit the catch!");                    
                 }
                 counter++;
-                remainingTime = remainingTime--;
-                Thread.Sleep(1000);
+                remainingTime--;
+                //Thread.Sleep(1000);
             }
             
             throw new Exception($"Element not found: {elementLocator.ToString()} waited for {sp.ElapsedMilliseconds} ms checked {counter} times");
@@ -76,13 +88,13 @@ namespace davidsSecondProject
         }
 
         [Test]
+        //Add what this test is and put comments on the functions below
         public void Test1()
         {
             driver.Url = "http://automationpractice.com/index.php";
             string username = "scubachicken88@gmail.com";
             string pass = "JavaPura1!";
-            //sup bro
-
+           
             driver.FindElement(By.XPath("//*[@class='login']")).Click();
            
             WaitUntilElementPresent(By.XPath("//*[@id='email']"), 20);
@@ -95,10 +107,11 @@ namespace davidsSecondProject
             driver.FindElement(By.XPath("//*[@id='passwd']")).Click();
             driver.FindElement(By.XPath("//*[@id='passwd']")).SendKeys(pass);
 
+            //Click Log In Button
             driver.FindElement(By.XPath("//*[@class='icon-lock left']")).Click();
-            WaitUntilElementPresent(By.XPath("(//*[@title='Dresses'][2])"));
-
-            driver.FindElement(By.XPath("(//*[@title='Dresses'][2])")).Click();
+            WaitUntilElementPresent(By.XPath("(//*[@title='Dresses'])[2]"));
+           
+            driver.FindElement(By.XPath("(//*[@title='Dresses'])[2]")).Click();
             WaitUntilElementPresent(By.XPath("(//*[@title='Printed Summer Dress'])"));
 
             driver.FindElement(By.XPath("(//*[@title='Printed Summer Dress'])")).Click();
@@ -117,6 +130,12 @@ namespace davidsSecondProject
             driver.FindElement(By.XPath("//*[@class='exclusive']")).Click();
                     
         }
+        [Test]
+        public void Test2()
+        {
+
+        }
+
         [OneTimeTearDown]
         public void End()
         {

@@ -2,7 +2,6 @@
 /Users/david.richards/Documents/GitHub/Testingstuff/davidsSecondSolution/davidsSecondProject/bin/Debug/netcoreapp3.0/NUnit3.TestAdapter.pdb
 /Users/david.richards/Documents/GitHub/Testingstuff/davidsSecondSolution/davidsSecondProject/bin/Debug/netcoreapp3.0/nunit.engine.dll
 /Users/david.richards/Documents/GitHub/Testingstuff/davidsSecondSolution/davidsSecondProject/bin/Debug/netcoreapp3.0/nunit.engine.api.dll
-/Users/david.richards/Documents/GitHub/Testingstuff/davidsSecondSolution/davidsSecondProject/bin/Debug/netcoreapp3.0/davidsSecondProject
 /Users/david.richards/Documents/GitHub/Testingstuff/davidsSecondSolution/davidsSecondProject/bin/Debug/netcoreapp3.0/davidsSecondProject.deps.json
 /Users/david.richards/Documents/GitHub/Testingstuff/davidsSecondSolution/davidsSecondProject/bin/Debug/netcoreapp3.0/davidsSecondProject.runtimeconfig.json
 /Users/david.richards/Documents/GitHub/Testingstuff/davidsSecondSolution/davidsSecondProject/bin/Debug/netcoreapp3.0/davidsSecondProject.runtimeconfig.dev.json
@@ -93,3 +92,4 @@
 /Users/david.richards/Documents/GitHub/Testingstuff/davidsSecondSolution/davidsSecondProject/obj/Debug/netcoreapp3.0/davidsSecondProject.csproj.CopyComplete
 /Users/david.richards/Documents/GitHub/Testingstuff/davidsSecondSolution/davidsSecondProject/obj/Debug/netcoreapp3.0/davidsSecondProject.dll
 /Users/david.richards/Documents/GitHub/Testingstuff/davidsSecondSolution/davidsSecondProject/obj/Debug/netcoreapp3.0/davidsSecondProject.pdb
+/Users/david.richards/Documents/GitHub/Testingstuff/davidsSecondSolution/davidsSecondProject/obj/Debug/netcoreapp3.0/davidsSecondProject.csprojAssemblyReference.cache

@@ -1,0 +1,10 @@
+/Users/david.richards/Documents/GitHub/Testingstuff/davidsSecondSolution/HelloWorld/bin/Debug/netcoreapp3.1/HelloWorld.deps.json
+/Users/david.richards/Documents/GitHub/Testingstuff/davidsSecondSolution/HelloWorld/bin/Debug/netcoreapp3.1/HelloWorld.runtimeconfig.json
+/Users/david.richards/Documents/GitHub/Testingstuff/davidsSecondSolution/HelloWorld/bin/Debug/netcoreapp3.1/HelloWorld.runtimeconfig.dev.json
+/Users/david.richards/Documents/GitHub/Testingstuff/davidsSecondSolution/HelloWorld/bin/Debug/netcoreapp3.1/HelloWorld.dll
+/Users/david.richards/Documents/GitHub/Testingstuff/davidsSecondSolution/HelloWorld/bin/Debug/netcoreapp3.1/HelloWorld.pdb
+/Users/david.richards/Documents/GitHub/Testingstuff/davidsSecondSolution/HelloWorld/obj/Debug/netcoreapp3.1/HelloWorld.csprojAssemblyReference.cache
+/Users/david.richards/Documents/GitHub/Testingstuff/davidsSecondSolution/HelloWorld/obj/Debug/netcoreapp3.1/HelloWorld.AssemblyInfoInputs.cache
+/Users/david.richards/Documents/GitHub/Testingstuff/davidsSecondSolution/HelloWorld/obj/Debug/netcoreapp3.1/HelloWorld.AssemblyInfo.cs
+/Users/david.richards/Documents/GitHub/Testingstuff/davidsSecondSolution/HelloWorld/obj/Debug/netcoreapp3.1/HelloWorld.dll
+/Users/david.richards/Documents/GitHub/Testingstuff/davidsSecondSolution/HelloWorld/obj/Debug/netcoreapp3.1/HelloWorld.pdb

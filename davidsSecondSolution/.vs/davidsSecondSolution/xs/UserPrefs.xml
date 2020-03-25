@@ -1,30 +1,36 @@
-﻿<Properties StartupConfiguration="{CF13E8B9-C362-48E7-BF15-1049FA493F32}|Default">
+﻿<Properties StartupConfiguration="{12AEE202-EDA0-432D-B6D7-4F649252CE5D}|Default">
+  <MonoDevelop.Ide.ItemProperties.HelloWorld PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.davidsSecondProject PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="davidsSecondProject/AnotherOne.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../Projects/QuickAutomationRepo/QuickAutomationRepo/wpengine.cs">
     <Files>
-      <File FileName="davidsSecondProject/Program.cs" Line="7" Column="21" />
-      <File FileName="davidsSecondProject/Easier Test.cs" Line="13" Column="6" />
-      <File FileName="davidsSecondProject/SomeNewTest.cs" Line="3" Column="2" />
-      <File FileName="davidsSecondProject/AnotherOne.cs" Line="1" Column="1" />
+      <File FileName="HelloWorld/Program.cs" Line="14" Column="1" />
+      <File FileName="HelloWorld/Program.cs" Line="14" Column="1" />
+      <File FileName="davidsSecondProject/EasierTest.cs" Line="112" Column="77" />
+      <File FileName="davidsSecondProject/newTest.cs" Line="59" Column="20" />
+      <File FileName="../../../../Projects/QuickAutomationRepo/QuickAutomationRepo/wpengine.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="davidsSecondSolution" expanded="True">
             <Node name="davidsSecondProject" expanded="True">
-              <Node name="Dependencies" expanded="True" />
-              <Node name="AnotherOne.cs" selected="True" />
+              <Node name="newTest.cs" selected="True" />
             </Node>
+            <Node name="HelloWorld" expanded="True" />
           </Node>
         </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
           <Node name="davidsSecondSolution" expanded="True">
             <Node name="davidsSecondProject" expanded="True">
               <Node name="davidsSecondProject" expanded="True">
-                <Node name="EasierTests" expanded="True">
-                  <Node name="Test1" selected="True" />
+                <Node name="EasierTests" expanded="True" />
+                <Node name="newTest" expanded="True">
+                  <Node name="david" selected="True" />
                 </Node>
               </Node>
             </Node>
@@ -36,7 +42,9 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint enabled="false" file="/Users/david.richards/Documents/GitHub/Testingstuff/davidsSecondSolution/davidsSecondProject/EasierTest.cs" relfile="davidsSecondProject/EasierTest.cs" line="116" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
